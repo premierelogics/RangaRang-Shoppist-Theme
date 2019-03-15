@@ -94,7 +94,7 @@ Text Domain:  Flipmart
 .blog-post-image .image img { width: 100%; height: 300px; }
 #newarrivals .image img { padding: 20px; }
 .topmostbanner img { width: 100%; object-fit: cover; height: auto;}
-.border img { border: 1px solid black; }
+.border img {}
   p{
     text-align: justify !important;
   }
@@ -230,7 +230,7 @@ img[src="assets/images/blank.gif"] {
   font-size: 13px;
   line-height: 22px;
   border-radius:0;
-  padding: 6px 14px;
+  padding: 11px 14px;
   font-family: 'Montserrat', sans-serif;
   border-radius:2px
 
@@ -416,6 +416,27 @@ img[src="assets/images/blank.gif"] {
 {
   margin-right: -38px !important;
  }
+ .smwidthtwo
+{
+  width: 38%;
+  margin-left: -7px;
+}
+.smfawidth
+{
+  width: 40px;
+  margin-left: -5px;
+  padding-left: 0px !important;
+}
+.smwidthone
+{
+  width: 38%;
+  margin-left: 20px;
+}
+.smwidthinput
+{
+  width: auto !important;
+}
+
  
   .inner {
     padding-top: 80px;
@@ -424,12 +445,11 @@ img[src="assets/images/blank.gif"] {
   .stickyq{
     position:fixed;
     bottom:0px;
-    z-index:21474836479999999;
-    width: 106%;
+    z-index:21474836479999999 !important;
+    width: 126%;
     transform: skewX(-20deg);
     right: -15px;
     left: 2px;
-    background-color: #fb641b;
     font-size: 18px!important;
 
   }
@@ -461,8 +481,6 @@ img[src="assets/images/blank.gif"] {
     font-weight: 500;
   }
   .color2 {
-    float:right;
-    width:50%!important;
     border-radius: 0px!important;
 
   }
@@ -470,7 +488,6 @@ img[src="assets/images/blank.gif"] {
     border-radius: 0px;
   }
   .color1{
-    width: 50%!important;
     border-radius: 0px!important;
   }
   .single-product .quantity-container .cart-quantity .quant-input .arrows {
@@ -500,7 +517,7 @@ img[src="assets/images/blank.gif"] {
   }
   .quantity-container .btn-primary{
     padding: 15px 20px;
-    width:49%!important;
+  
   }
   .cart-quantity{
     margin-left:-15px;
@@ -833,7 +850,6 @@ img[src="assets/images/blank.gif"] {
 .show-theme-options:focus {
   background: #12cca7;
 }
-.btn-primary:hover,
 .btn-black:hover,
 .btn-primary:focus,
 .btn-black:focus {
@@ -6286,11 +6302,13 @@ display: none;
 .color1{
   background: -webkit-linear-gradient(left,#48cfef,#16a4da);
   color:white!important;
+  font-weight: 600 !important;
   
 }
 .color2{
   background: -webkit-linear-gradient(left,#ff9f36,#ff6700);
   color:white!important;
+  font-weight: 600 !important;
 
 }
 
