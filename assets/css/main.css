@@ -411,6 +411,12 @@ img[src="assets/images/blank.gif"] {
   padding-bottom: 20px;
 }
 @media (max-width: 767px) {
+  
+.smwidthinput
+{
+  margin-right: -38px !important;
+ }
+ 
   .inner {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -5905,7 +5911,7 @@ age-container #owl-main .owl-next {
 .body-content{
     position: relative!important;
     margin-top: 92px;
-  min-height: 450px;
+  min-height: auto !important;
   }
 
   .mt-bot-56 {margin-bottom: 56px !important;}
@@ -6795,7 +6801,7 @@ margin-right: 10px;
   height: 88%!important;
 
 }
-}
+
 
 .counter {
   top:0px;
