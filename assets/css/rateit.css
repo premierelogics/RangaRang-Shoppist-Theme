@@ -131,3 +131,42 @@
 {
     background-position: 0 -14px;
 }
+
+/*second Rating by TA*/
+.rating1 {
+            width: 200px;
+            margin: 0 auto;
+            font-size: 45px;
+            overflow:hidden;
+        }
+.rating1 input {
+  float: left;
+  opacity: 0;
+  position: absolute;
+}
+        .rating1 a,
+    .rating1 label {
+            float:left;
+            color: #aaa;
+            text-decoration: none;
+            -webkit-transition: color .4s;
+            -moz-transition: color .4s;
+            -o-transition: color .4s;
+            transition: color .4s;
+        }
+.rating1 label:hover ~ label,
+.rating1 input:focus ~ label,
+.rating1 label:hover,
+        .rating1 a:hover,
+        .rating1 a:hover ~ a,
+        .rating1 a:focus,
+        .rating1 a:focus ~ a     {
+            color: orange!important;
+            cursor: pointer;
+        }
+        .rating2 {
+            direction: rtl;
+        }
+        .rating2 a {
+            float:none
+        }
