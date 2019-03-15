@@ -1,4 +1,4 @@
-
+​
 /*
 Theme Name: Flipmart
 Author: ThemesGround
@@ -15,7 +15,7 @@ Text Domain:  Flipmart
 3.   Header
 4.   Side menu
 5.   Slider
-6.   Top Banner Section	
+6.   Top Banner Section 
 8.   Home Tabs
 9.   Products Grid 
 10.  Products List
@@ -378,7 +378,7 @@ img[src="assets/images/blank.gif"] {
 }
 
 .outer-top-vs {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .outer-top-small {
   margin-top: 50px;
@@ -5911,7 +5911,11 @@ age-container #owl-main .owl-next {
 .body-content{
     position: relative!important;
     margin-top: 92px;
+<<<<<<< HEAD
   min-height: auto !important;
+=======
+    min-height: 100px;
+>>>>>>> 8101625778f2370672dbf1ed7c490f5e9bdb2ad4
   }
 
   .mt-bot-56 {margin-bottom: 56px !important;}
@@ -6834,6 +6838,7 @@ margin-right: 10px;
 .navbar-nav .yamm-content .title a{
     color:#000!important;
 }
+
 .sidebar .owl-prev,
 .sidebar .owl-next{
     background-color:white!important;
